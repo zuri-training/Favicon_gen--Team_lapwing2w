@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&family=Poppins:wght@300&family=Roboto:wght@300&display=swap');
+* {
+box-sizing: border-box;
+margin: 0;
+padding: 0;
+}
+
+body{
+    font-family: 'Poppins',sans-serif ;
+    background-color: #FFFFFF;
+}
+.container{
+    width: 50%;
+    display: flex;
+    transform: translate(35%, 50%);
+}
+.img_background {
+    background: url(/images/WhatsApp\ Image\ 2022-12-09\ at\ 1.19.50\ PM.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 600px;
+    padding-right: 30px;
+}
+.img_background > img{
+    margin: 10px 0 0 10px;
+}
+.housing{
+    padding: 30px;
+}
+.housing h3{
+    font-size: 30px;
+    color: white;
+    font-weight: 10px;
+    margin-top: 25px;
+}
+.housing>p{
+    color: blue;
+    margin-top: 20px;
+    font-size: 20px;
+}
+.housing>div{
+    background: #272549;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 50px;
+}
+.sub_img{
+    margin-top: 30px;
+    display: flex;
+    gap: 10px;
+}
+.btns{
+    text-align: center;
+}
+.btns>button{
+    width: 25px;
+    height: 25px;
+    margin-right: 20px;
+    border-radius: 50%;
+    margin-bottom: 40px;
+    border: none;
+    background: rgba(0, 0, 0, 0.9)
+}
+.forms_div{
+    margin: 25px 0 25px 25px;
+}
+.sign_up{
+    background: #272549;
+    width: 100px;
+    color: white;
+    font-size: 14px;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.para{
+    margin-top: 20px;
+    display: flex;
+    gap: 20px;
+}
+.para>button{
+    background: #5CF46C;
+    color: white;
+    padding: 8px;
+    border-radius: 8px;
+    border: none;
+}
+.checkBox{
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.first{
+    width: 100px;
+    background:#9FD5F4;
+    margin-right: 70px;
+    padding: 10px;
+    border-radius: 5px;
+}
+.first span{
+    margin-right: 50px;
+    font-weight: bolder;
+}
+input[type="radio"]{
+    margin-right: 50px;
+}
+.form_proper{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.form_proper>input{
+    width: 90%;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    background:#9FD5F4;
+}
+input::placeholder{
+    font-size: 20px;
+    color: grey;
+}
+#show-password{
+    margin-top: 20px;
+}
+#create{
+    width: 100px;
+    background: #272549;
+    color: white;
+    padding: 10px;
+    font-size: 20px;
+    border: none;
+    border-radius: 7px;
+    margin-top: 20px;
+}
+@media screen and(max-width: 1000px) {
+.form_proper{
+    width: 300px;
+    
+}
+}
