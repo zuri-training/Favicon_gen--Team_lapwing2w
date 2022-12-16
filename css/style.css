@@ -60,16 +60,12 @@ justify-content: space-between;
 #banner_btn{
 width: 87px;
 height: 43px;
-left: 971px;
-top: 207px;
 background: #5DB781;
 border-radius: 8px;
 border: none;
 }
 .sign_up{
-position: absolute;
-left: 1400px;
-top: 400px;
+margin-left: 80%;
 }
 .sign_up a {
     text-decoration: none;
@@ -159,7 +155,34 @@ footer a{
 footer h5{
     margin-bottom: 15px;
 }
-
+@media screen and (max-width: 900px) {
+    .last_section{
+        margin-top: 100px;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+    .banner_container{
+        flex-direction: column;
+        }
+        .btn_div{
+            width: 100%;
+            margin-top: 20px;;
+        }
+        #banner_btn{
+            width: 80%;
+            height: 43px;
+            }
+            .container{
+                flex-direction: column;
+            }
+            .nav_ul{
+                display: block;
+            }
+            .first_section{
+                margin-top: 200px;
+            }
+}
 
 
 

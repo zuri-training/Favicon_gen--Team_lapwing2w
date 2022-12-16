@@ -65,6 +65,7 @@ body{
 }
 .forms_div{
     margin: 25px 0 25px 25px;
+    width: 1000px;
 }
 .sign_up{
     background: #272549;
@@ -92,7 +93,7 @@ body{
     margin-bottom: 30px;
 }
 .first{
-    width: 100px;
+    width: 50px;
     background:#9FD5F4;
     margin-right: 70px;
     padding: 10px;
@@ -135,8 +136,7 @@ input::placeholder{
     margin-top: 20px;
 }
 @media screen and(max-width: 1000px) {
-.form_proper{
-    width: 300px;
-    
-}
+    input[type="radio"]{
+        margin-right: 5px;
+    }
 }

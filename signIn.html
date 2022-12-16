@@ -42,7 +42,7 @@
             <p>
                 Have an account?
               </p>
-              <button type="button" onclick="location.href='' ">Login</button>
+              <button type="button" onclick="location.href='/Login.html' ">Login</button>
           </div>
           
         </div>
@@ -62,25 +62,31 @@
             type="email"
             name="email"
             placeholder="Type here..."
+            required
           />
           <label for="Username">Username</label>
           <input
             type="text"
             name="username"
             placeholder="Type here..."
+            required
           />
           <label for="password">Password</label>
           <input
             type="password"
+            id="password"
             name="password"
             value="password"
             placeholder=""
+            required
+            maxlength="8"
           />
           <div> <input type="checkbox" name="check" id="show-password" /> click to
             view password</div>
         </div>
         <div class="submit_btn"></div>
-        <button value="submit" id="create">Create</button>
+        <button type="submit" id="create">Create</button>
+        <script href="/js/sign_up.js"></script>
       </div>
     </div>
   </body>

@@ -1,4 +1,4 @@
-var check = document.getElementById('show_password');
+var check = document.getElementById('show-password');
 var password = document.getElementById("password");
 function getVisibility(){
     if(check.checked){
@@ -7,4 +7,4 @@ function getVisibility(){
         password.type = "password";
     }
 }
-check.onClick = getVisibility();
+check.onClick = getVisibility;

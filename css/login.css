@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&family=Poppins:wght@300&family=Roboto:wght@300&display=swap');
+* {
+box-sizing: border-box;
+margin: 0;
+padding: 0;
+}
+
+body{
+    font-family: 'Poppins',sans-serif ;
+    background-color: #FFFFFF;
+}
+.container{
+    background: whitesmoke;
+    max-width: 40%;
+    height: auto;
+    display: flex;
+    gap: 30px;
+    transform: translate(35%, 50%);
+}
+.img_background{
+    width: 50%;
+    height: 100%;
+    background: url(/Images/WhatsApp\ Image\ 2022-12-09\ at\ 1.19.49\ PM\ \(1\).jpeg);
+    background-position: center;
+    color: white;
+    background-repeat: no-repeat;
+}
+.img_background>div{
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+.para{
+    margin-top: 20px;
+    display: flex;
+    gap:40px;
+}
+.para > button{
+    width: 60px;
+    padding: 3px;
+    border-radius: 5px;
+    border: none;
+    font-weight: bolder;
+}
+.secondContainer{
+    width: 50%;
+}
+.form_proper{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 20px;
+}
+.form_proper>input{
+width: 80%;
+height: 40px;
+border-radius: 5px;
+border: none;
+}
+input::placeholder{
+    color: grey;
+    font-size: 16px;
+}
+#show-password{
+    margin-top: 5px;
+}
+.submit_btn{
+    margin-top: 5px;
+}
+
+.submit_btn > button{
+    width: 80%;
+    margin-right: 20px;
+    background: #272549;
+    border-radius: 10px;
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+    border: none;
+}
+.forms_div h3{
+    margin-left: 35%;
+    margin-top: 2px;
+    font-size: 20px;
+}
+.socials{
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    gap: 5px;
+    margin-bottom: 10px;
+}
+.logger{
+    padding: 5px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+#google{
+    background:#E37C7C;;
+}
+#facebook{
+    background: #1AC4FA;
+}
+.contents h3{
+    font-size: 30px;
+}
+@media screen and(min-width: 1000px) {
+    .container{
+        background: whitesmoke;
+        width: 100vw;
+        height: 100vh;
+        display: block;
+    }
+}
+
